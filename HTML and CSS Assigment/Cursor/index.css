@@ -1,0 +1,129 @@
+:root{
+    --background-color: #14120b;
+    --text-color: #edecec
+}
+
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.container{
+    width: 69%;
+    height: 52px;
+    margin: 0 auto;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    font-size: 14px;
+}
+
+.left-section{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.left-section .logo{
+    width: 25px;
+    height: 25px;
+}
+.left-section .name {
+    width: 70px;
+}
+
+.middle-section{
+    display: flex;
+    text-decoration: none;
+    gap: 30px;
+}
+.ctas{
+    display: flex;
+    text-decoration: none;
+    gap: 15px;
+}
+.ctas .signin, .ctas .download{
+    height: auto;
+    border: 1px solid #fff;
+    border-radius: 40px;
+}
+.ctas .signin div,  .ctas .download div{
+    padding: 5px 10px;
+}
+
+.ctas .download{
+    background-color: var(--text-color);
+    color: var(--background-color);
+}
+
+.hero-section{
+    padding-top: 112px;
+}
+
+.hero-section .text1, .hero-section .text2{
+    font-size: 25px;
+}
+
+.hero-section .cta{
+    padding-top: 20px;
+}
+
+.hero-section .cta div{
+    font-size: 20px;
+    height: auto;
+    width: 250px;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    border-radius: 40px;
+    background-color: var(--text-color);
+    color: var(--background-color);
+}
+
+.hero-section img{
+    padding-top: 50px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.trusted-by{
+    padding-top: 112px;
+}
+
+.trusted-by .text{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.trusted-by .logos{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.trusted-by .logos .images{
+    width: 150px;
+    height: 80px;
+    background-color: #1b1913;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.trusted-by .logos .images img{
+    width: 90px;
+}
