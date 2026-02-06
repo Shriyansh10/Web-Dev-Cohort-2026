@@ -20,7 +20,6 @@ body{
 
 .container{
     width: 69%;
-    height: 52px;
     margin: 0 auto;
 }
 
@@ -29,8 +28,11 @@ nav{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 100%;
+    height: 52px;
     font-size: 14px;
+    position: sticky;
+    top: 0;
+    background-color: var(--background-color);
 }
 
 .left-section{
@@ -79,11 +81,11 @@ nav{
     font-size: 25px;
 }
 
-.hero-section .cta{
-    padding-top: 20px;
+.hero-section .cta, .try-cursor .cta{
+    margin-top: 20px;
 }
 
-.hero-section .cta div{
+.hero-section .cta, .try-cursor .cta{
     font-size: 20px;
     height: auto;
     width: 250px;
@@ -91,6 +93,10 @@ nav{
     border: 1px solid #fff;
     border-radius: 40px;
     background-color: var(--text-color);
+    color: var(--background-color);
+}
+.hero-section .cta a, .try-cursor .cta a{
+    text-decoration: none;
     color: var(--background-color);
 }
 
@@ -279,4 +285,198 @@ nav{
     padding-top: 15px;
     color: #d24e00;
     font-size: 16px;
+}
+
+.changelogs{
+    margin-top: 122px;
+}
+
+.changelogs .changelogs-text{
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.changelogs .cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.changelogs .cards .card{
+    background-color: var(--card-color);
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+
+.changelogs  .cards .card .date{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+    height: 30px;
+}
+
+.changelogs .cards .card .date .version{
+    padding: 3px;
+    width: 45px;
+    border: 1px solid var(--text-secondary);
+    border-radius: 19px;
+    text-align: center;
+}
+
+.changelogs .cards .card .details{
+    margin: 15px 0;
+}
+
+.changelogs .cta{
+    text-decoration: none;
+    color: #d24e00;
+    font-size: 16px;
+}
+
+.try-cursor{
+    margin-top: 61px;
+    margin-bottom: 61px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 325px;
+}
+
+.try-cursor .text{
+    font-size: 80px;
+    font-weight: bold;
+}
+
+footer{
+    background-color: var(--card-color);
+    padding: 80px 0 10px;
+}
+
+.footer-container{
+    width: 69%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.footer-container div{
+    width: 100%;
+    
+}
+
+.footer-container div .category a{
+    color: var(--text-secondary);
+}
+
+.footer-container div li{
+    list-style: none;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+.footer-container div li a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.copyright-section{
+    display: flex;
+    width: 69%;
+    margin: 100px auto;
+    justify-content: space-between;
+    margin-bottom: 0;
+    font-size: 13px;
+    
+}
+
+.copyright-section .left-section{
+    color: var(--text-secondary);
+    
+}
+
+.copyright-section .right-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    
+}
+
+.copyright-section .right-section .dark-mode{
+    background-color: #252522;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 15px;
+}
+
+.copyright-section .right-section .dark-mode div{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back-dark{
+    background-color: #413e3d;
+    border-radius: 15px;
+}
+
+.copyright-section .right-section .language{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    background-color: #252522;
+    display: flex;
+    padding: 6px;
+    border-radius: 15px;
+}
+
+.container-background{
+    margin-top: 122px;
+    background-color: var(--card-color);
+}
+
+.highlights-section{
+    width: 69%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 50px 0;
+}
+
+.highlights-section .card{
+    background-color: #201e18;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.highlights-section .card:hover{
+    background-color: #26241e;
+}
+
+.highlights-section .highlights{
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.highlights-section .cta{
+    text-decoration: none;
+    padding-top: 15px;
+    color: #d24e00;
+    font-size: 20px;
 }
