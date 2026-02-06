@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --width: 55%;
+    --text-color: #ffffff;
+    --secondary-color: #90ECC5;
+    --tertiary-color: #18E299;
+}
+
+body{
+    background: no-repeat url('./Assets/bg-dark.svg');
+    background-color: #08090a;
+    background-size: 100%;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    background: rgba(255, 255, 255, 0);
+    /* backdrop-filter: 10%; */
+    width: var(--width);
+    margin: 0 auto;
+    height: 65px;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: red; */
+    height: 100%;
+    margin: auto 0;
+    position: sticky;
+    top: 0;
+}
+
+.navbar .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar .logo img{
+    width: 18px;
+}
+.navbar .logo .name{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar .middle-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+
+}
+
+.navbar .middle-section li{
+    list-style: none;
+    font-size: 14px;
+}
+
+.navbar .right-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+}
+
+.navbar .right-section .contact{
+    background: rgba(255, 255, 255, 0.068);
+    height: 40px;
+    width: 100px;
+    border-radius: 15px;
+}
+
+.navbar .right-section .cta{
+    background: rgba(255, 255, 255, 0.918);
+    height: 40px;
+    width: 100px;
+    border-radius: 15px;
+    color: #000000;
+}
+
+.hero-section{
+}
+
+.hero-section .cta{
+    width: 400px;
+    margin: 40px auto;
+    background: rgba(255, 255, 255, 0.164);
+    justify-content: space-between;
+    padding: 0 7px 0 0;
+    border-radius: 30px;
+    height: 30px;
+}
+
+.hero-section .cta .new{
+    background-color: var(--tertiary-color);
+    width: 50px;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.hero-section .text{
+    
+}
+
+.large-text{
+    font-size: 50px;
+    margin-bottom: 20px;
+    width: 100px;
+}
