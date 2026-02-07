@@ -1,4 +1,4 @@
-Hosted Site - https://shriyansh10.github.io/Cursor/
+# Hosted Site - [Click this](https://shriyansh10.github.io/Cursor/) to view the site
 
 # Cursor Landing Page Clone
 
@@ -14,10 +14,13 @@ Check out the live version of the project here:
 ## 📸 Screenshots
 
 ### Hero Section
-![Hero Section Screenshot](path/to/hero-screenshot.png)
+![Hero Section Screenshot](https://github.com/Shriyansh10/Web-Dev-Cohort-2026/blob/main/HTML%20and%20CSS%20Assigment/Cursor/Screenshots/hero-section.png)
 
-### Feature Section
-![Feature Section Screenshot](path/to/feature-screenshot.png)
+### Testimonial Section
+![Testimonial Section Screenshot](https://github.com/Shriyansh10/Web-Dev-Cohort-2026/blob/main/HTML%20and%20CSS%20Assigment/Cursor/Screenshots/testimonials.png)
+
+### Footer Section
+![Footer Section Screenshot](https://github.com/Shriyansh10/Web-Dev-Cohort-2026/blob/main/HTML%20and%20CSS%20Assigment/Cursor/Screenshots/footer.png)
 
 ---
 
@@ -37,14 +40,19 @@ Open your terminal and run the following command:
 ```bash
 git clone https://github.com/Shriyansh10/Web-Dev-Cohort-2026.git
 ```
-2. Navigate to the project directory
-Bash
 
+### 2. Navigate to the project directory
+
+```Bash
 cd Web-Dev-Cohort-2026
-3. Run the project
+```
+
+### 3. Run the project
 If using VS Code: Install the "Live Server" extension, right-click index.html, and select "Open with Live Server".
 
-Alternatively: Simply double-click the index.html file to open it in your browser.
+**Alternatively**: Simply double-click the index.html file to open it in your browser.
+
+---
 
 📝 Credits
 Original Design: Cursor
