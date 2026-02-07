@@ -14,13 +14,13 @@ Check out the live version of the project here:
 ## 📸 Screenshots
 
 ### Hero Section
-![Hero Section Screenshot]()
+![Hero Section Screenshot](https://github.com/Shriyansh10/Web-Dev-Cohort-2026/blob/main/HTML%20and%20CSS%20Assigment/Mintilify/Screenshots/hero-section.png)
 
-### Testimonial Section
-![Testimonial Section Screenshot]()
+### Enterprise Section
+![Enterprise Section Screenshot](https://github.com/Shriyansh10/Web-Dev-Cohort-2026/blob/main/HTML%20and%20CSS%20Assigment/Mintilify/Screenshots/Enterprise.png)
 
 ### Footer Section
-![Footer Section Screenshot]()
+![Footer Section Screenshot](https://github.com/Shriyansh10/Web-Dev-Cohort-2026/blob/main/HTML%20and%20CSS%20Assigment/Mintilify/Screenshots/footer.png)
 
 ---
 
