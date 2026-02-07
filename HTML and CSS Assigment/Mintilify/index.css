@@ -25,10 +25,14 @@ body{
     justify-content: center;
     align-items: center;
 }
+.navbar-full-width{
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(100px);
+}
 
 nav{
     background: rgba(255, 255, 255, 0);
-    /* backdrop-filter: 10%; */
     width: var(--width);
     margin: 0 auto;
     height: 65px;
@@ -285,6 +289,10 @@ nav{
     font-size: 14px;
 }
 
+.section-3{
+    margin-bottom: 30px;
+}
+
 .section-3 img{
     width: 100%;
 }
@@ -325,8 +333,8 @@ nav{
 }
 
 .customers .grid-section .card img{
-    width: 100%;
-    height: auto;
+    width: 360px;
+    height: 250px;
     border-radius: 10px;
 }
 
@@ -424,6 +432,7 @@ footer .footer-categories{
     grid-template-columns: repeat(5,1fr);
     text-align: start;
     border: 1px solid rgba(255, 255, 255, 0.1);
+    font-size: 14px;
 }
 
 footer .footer-categories .category{
@@ -484,4 +493,17 @@ footer .certified div img{
     
     background-color: rgb(5, 5, 5);
     border-radius: 25px;
+}
+
+.section-4{
+    margin: 10px auto 200px;
+}
+
+.section-4 .row{
+    width: 40%;
+}
+
+.section-4 .row div img{
+    /* height: 100%; */
+    width: 80px;
 }
